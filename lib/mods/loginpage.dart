@@ -68,6 +68,10 @@ class _LoginPageState extends State<LoginPage> {
                     border: OutlineInputBorder()
                 ),
               ),
+              ElevatedButton(onPressed: (){
+                Navigator.pop(context);
+              },
+                  child: Text("Back"))
             ],
           ),
         ),
